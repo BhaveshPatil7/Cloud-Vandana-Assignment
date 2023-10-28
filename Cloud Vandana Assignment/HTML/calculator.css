@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(235, 235, 223);
+    
+}
+
+table{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-collapse: collapse;
+} 
+tr,td{
+    border-spacing: 10px;
+}
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 30px; 
+    background-color: rgb(33, 33, 33); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+   
+} 
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+} 
